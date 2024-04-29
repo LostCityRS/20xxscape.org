@@ -1,0 +1,69 @@
+/* Base body styles */
+body {
+    background: black url('/img/bg.jpg') top center repeat-y;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+}
+
+#body {
+    width: 765px;
+    margin: 10px auto;
+    text-align: left;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.titleframe {
+    width: 150px; /* Ensuring width consistency with the main container */
+    margin: 10px auto 20px auto; /* Adds space below the titleframe */
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #382418; /* Optional: Adding a border to make it stand out */
+    background-color: #000; /* Optional: Ensuring background consistency */
+}
+
+
+/* Styles for all elements with the .e class */
+.e {
+    border: 2px solid #382418;
+    background-color: black;
+    padding: 4px;
+    margin: auto;
+    text-align: center;
+}
+
+/* General image styles */
+img {
+    width: 90%;
+    border: 0;
+    display: block;
+    margin: auto;
+}
+
+/* Specific styles for the download button to keep its original size */
+img.download-button {
+    width: auto; /* or you could specify the exact width in pixels if known */
+    height: auto; /* maintain the original height */
+    border: 0;
+    display: block;
+    margin: auto;
+}
+
+
+/* Specific styles for gameplay screenshots */
+img.gameplay-screenshot {
+    width: 99%;
+    height: auto;
+}
+
+/* Link styles */
+a {
+    color: #90c040;
+    text-decoration: none;
+}
