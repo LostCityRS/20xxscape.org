@@ -55,6 +55,9 @@ img.download-button {
     margin: auto;
 }
 
+img.download-button:hover {
+    filter: brightness(1.2);
+}
 
 /* Specific styles for gameplay screenshots */
 img.gameplay-screenshot {
